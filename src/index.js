@@ -2,7 +2,10 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
-import App from "./App";
+import Home from "./Routes/Home/Home.js";
+import About from "./Routes/About/About.js";
+import Projects from "./Routes/Projects/Projects.js";
+import Contact from "./Routes/Contact/Contact.js";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,7 +17,10 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route index path="/" element={<App />}></Route>
+          <Route index path="/" element={<Home />}></Route>
+          <Route index path="/About" element={<About />}></Route>
+          <Route index path="/Projects" element={<Projects />}></Route>
+          <Route index path="/Contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
     </Provider>
