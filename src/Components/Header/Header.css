@@ -2,12 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 1px solid rgb(219, 32, 63);
+    background-color: rgb(255, 250, 243);
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
 }
 @media screen and (min-width: 430px) and (max-width: 630px) {
     .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
     }
 }
 
@@ -16,6 +21,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
 
     }
 }

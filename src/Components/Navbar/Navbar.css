@@ -3,11 +3,10 @@
     justify-content: space-evenly;
     padding: 2px;
     height: 40px;
-    margin: 0 10vw;
     font-size: 1rem;
     max-width: 600px;
-    justify-self: flex-end;
     width: 100%;
+    
 }
 
 .navbar__btn {
@@ -15,33 +14,35 @@
     background: none;
     outline: none;
     border: 2px solid transparent;
-    font-size: 1rem;
-    position: relative;
-    z-index: 1;
-    transition: ease-in-out 500ms;
-    color: rgb(44, 44, 44);
+    font-size: 1.2rem;
+    transition: ease-in-out 600ms;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
 }
 
 .navbar__btn:hover {
     border-bottom: 2px solid rgb(168, 218, 168);
-    color: rgb(6, 6, 6);
+    color: rgb(135, 135, 135);
 }
 
 
 
+@media screen and (max-width: 915px) {
+    .navbar {
+       
+    }
+}
 
 
-
-@media screen and (min-width: 430px) and (max-width: 630px) { 
+@media screen and (min-width: 430px) and (max-width: 650px) { 
    .navbar {
         display: flex;
         justify-content: space-evenly;
         padding: 2px;
         height: 40px;
-        margin: 0 10vw;
         font-size: 1rem;
-        justify-self: center;
-
     }
 
     .navbar__btn {
@@ -70,9 +71,8 @@
         justify-content: space-evenly;
         padding: 2px;
         height: 40px;
-        margin: 0;
+        margin: auto;
         font-size: .9rem;
-        justify-self: center;
 
     }
 
@@ -83,7 +83,6 @@
         border: 2px solid transparent;
         font-size: 1rem;
         position: relative;
-        z-index: 1;
         transition: ease-in-out 500ms;
         color: rgb(44, 44, 44);
     }
