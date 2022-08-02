@@ -1,0 +1,10 @@
+.fancyName {
+    font-family: 'The Nautigal', cursive;
+    font-size: inherit;
+    color: rgb(149, 183, 149);
+    font-size: 1.7rem;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 150px
+}
