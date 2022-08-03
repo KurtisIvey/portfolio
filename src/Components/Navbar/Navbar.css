@@ -6,7 +6,6 @@
     font-size: 1rem;
     max-width: 600px;
     width: 100%;
-    
 }
 
 .navbar__btn {
@@ -24,7 +23,7 @@
 
 .navbar__btn:hover {
     border-bottom: 2px solid rgb(168, 218, 168);
-    color: rgb(135, 135, 135);
+    color:  rgb(168, 218, 168);
 }
 
 
@@ -46,51 +45,28 @@
     }
 
     .navbar__btn {
-        width: 100%;
-        background: none;
-        outline: none;
-        border: 2px solid transparent;
         font-size: 1rem;
         position: relative;
-        z-index: 1;
-        transition: ease-in-out 500ms;
-        color: rgb(44, 44, 44);
+        
     }
 
-    .navbar__btn:hover {
-        border-bottom: 2px solid rgb(168, 218, 168);
-        color: rgb(6, 6, 6);
-    }
  
 }
 
-@media screen and (min-width: 360px) and (max-width: 430px) { 
+@media screen and (max-width: 430px) { 
     .navbar {
         border: 1px solid red;
         display: flex;
         justify-content: space-evenly;
         padding: 2px;
-        height: 40px;
-        margin: auto;
-        font-size: .9rem;
-
+        height: 35px;
     }
 
     .navbar__btn {
-        width: 100%;
-        background: none;
-        outline: none;
-        border: 2px solid transparent;
-        font-size: 1rem;
-        position: relative;
-        transition: ease-in-out 500ms;
-        color: rgb(44, 44, 44);
+        font-size: .9rem;
+        
     }
 
-    .navbar__btn:hover {
-        border-bottom: 2px solid rgb(168, 218, 168);
-        color: rgb(6, 6, 6);
-    }
 }
 
 

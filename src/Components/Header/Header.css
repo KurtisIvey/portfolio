@@ -12,16 +12,17 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 430px) {
+@media screen  and (max-width: 430px) {
     .header {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
+
 
     }
 }
