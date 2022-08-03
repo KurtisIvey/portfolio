@@ -3,7 +3,6 @@
     justify-content: space-evenly;
     padding: 2px;
     height: 40px;
-    font-size: 1rem;
     max-width: 600px;
     width: 100%;
 }
@@ -13,7 +12,7 @@
     background: none;
     outline: none;
     border: 2px solid transparent;
-    font-size: 1.2rem;
+    font-size: .9rem;
     transition: ease-in-out 600ms;
     color: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
@@ -41,11 +40,10 @@
         justify-content: space-evenly;
         padding: 2px;
         height: 40px;
-        font-size: 1rem;
     }
 
     .navbar__btn {
-        font-size: 1rem;
+        font-size: .8rem;
         position: relative;
         
     }
@@ -63,7 +61,7 @@
     }
 
     .navbar__btn {
-        font-size: .9rem;
+        font-size: .7rem;
         
     }
 

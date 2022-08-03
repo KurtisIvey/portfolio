@@ -1,4 +1,79 @@
 .home {
-    display: grid;
+    
 }
+
+.home__body {
+    border: 1px solid pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home__hiContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid blue;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+    .home__smallText {
+        font-weight: 300;
+    }
+    .home__bigText {
+        font-weight: 600;
+    }
+    .home__medText {
+        font-weight: 600;
+    }
+
+@media screen and (min-width: 430px) and (max-width: 650px) { 
+    .home__body {
+        border: 1px solid pink;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .home__hiContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border: 1px solid blue;
+    
+    }
+  
+ }
+ 
+ @media screen and (max-width: 430px) { 
+    .home__body {
+        border: 1px solid pink;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding-top: 30px;
+    }
+    
+    .home__hiContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90vw;
+        margin:auto;
+        border: 1px solid blue;
+    
+    }
+    .home__smallText {
+        font-size: .9rem;
+    }
+    .home__bigText {
+        font-size: 1.8rem;
+    }
+    .home__medText {
+        font-size: 1.3rem;
+    }
+    .home__statement {
+        font-size: .9rem;
+    }
+ 
+ }
 
