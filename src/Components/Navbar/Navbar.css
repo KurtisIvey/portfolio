@@ -1,70 +1,101 @@
 .navbar {
     display: flex;
-    justify-content: space-evenly;
-    padding: 2px;
-    height: 40px;
-    max-width: 600px;
-    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(149, 183, 149);
+    color: white;
 }
 
-.navbar__btn {
-    width: 100%;
-    background: none;
-    outline: none;
-    border: 2px solid transparent;
-    font-size: .9rem;
-    transition: ease-in-out 600ms;
-    color: rgb(0, 0, 0);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-
+.navbar__name {
+    font-family: 'The Nautigal', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    
+    margin: .5rem;
 }
 
-.navbar__btn:hover {
-    border-bottom: 2px solid rgb(168, 218, 168);
-    color:  rgb(168, 218, 168);
+.navbar__links {
+    height: 100%;
+}
+
+.navbar__links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__links li  {
+    list-style: none;
+}
+
+.navbar__links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.navbar__links li:hover {
+    background-color:rgb(179, 226, 179);
+}
+
+.navbar__toggle {
+    position: absolute;
+    top: .05rem;
+    right: .4rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar__toggle:hover {
+    color: rgb(70, 69, 69);
 }
 
 
 
-@media screen and (max-width: 915px) {
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
     .navbar {
-       
+        flex-direction: column;
+        align-items: flex-start;
     }
-}
-
-
-@media screen and (min-width: 430px) and (max-width: 650px) { 
-   .navbar {
+    .navbar__toggle {
         display: flex;
-        justify-content: space-evenly;
-        padding: 2px;
-        height: 40px;
     }
 
-    .navbar__btn {
-        font-size: .8rem;
-        position: relative;
-        
+    .navbar__links {
+        display: none;
+        width: 100%;
     }
 
- 
-}
-
-@media screen and (max-width: 430px) { 
-    .navbar {
-        border: 1px solid red;
+    .navbar__links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar__links ul li {
+        text-align: center;
+    }
+    .navbar__links ul li a {
+        padding: .5rem 1rem;
+    }
+    .navbar__links.active {
         display: flex;
-        justify-content: space-evenly;
-        padding: 2px;
-        height: 35px;
     }
+    
 
-    .navbar__btn {
-        font-size: .7rem;
-        
+    
+    .navbar__name {
+        margin-left: 0;
+        font-size: 1.8rem;
+
     }
-
 }
-
 

@@ -60,6 +60,7 @@
         width: 90vw;
         margin:auto;
         border: 1px solid blue;
+        margin-bottom: 30px;
     
     }
     .home__smallText {
@@ -73,6 +74,10 @@
     }
     .home__statement {
         font-size: .9rem;
+    }
+
+    .home__headshot {
+        margin: auto;
     }
  
  }

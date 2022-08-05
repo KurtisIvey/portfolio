@@ -6,7 +6,6 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <FancyName />
       <Navbar />
     </div>
   );
