@@ -12,15 +12,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div class="navbar__name">K. Ivey</div>
+      <div className="navbar__name">K. Ivey</div>
 
       <Icon
         path={mdiMenu}
-        class="navbar__toggle"
+        className="navbar__toggle"
         onClick={() => toggleNavbar()}
       />
 
-      <div ref={navbarLinks} class="navbar__links">
+      <div ref={navbarLinks} className="navbar__links">
         <ul>
           <li>
             <a href="#">Home</a>

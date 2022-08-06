@@ -1,8 +1,13 @@
 import React from "react";
-import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Home.css";
-import firebase from "../../assets/firebase.svg";
+import cssLogo from "../../assets/cssLogo.svg";
+import firebaseLogo from "../../assets/firebaseLogo.svg";
+import gitLogo from "../../assets/gitLogo.svg";
+import htmlLogo from "../../assets/htmlLogo.svg";
+import javascriptLogo from "../../assets/javascriptLogo.svg";
+import reactLogo from "../../assets/reactLogo.svg";
+import reduxLogo from "../../assets/reduxLogo.svg";
 
 function App() {
   return (
@@ -34,11 +39,26 @@ function App() {
         <div>
           <div>Skills</div>
 
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-react"></i>
-          <i class="fa-brands fa-square-js"></i>
-          <i class="fa-brands fa-css3-alt"></i>
-          <img src={firebase} alt="firebase logo" />
+          <img className="home__techLogo" src={htmlLogo} alt="html logo" />
+          <img className="home__techLogo" src={cssLogo} alt="css logo" />
+          <img
+            className="home__techLogo"
+            src={javascriptLogo}
+            alt="javascript logo"
+          />
+          <img className="home__techLogo" src={gitLogo} alt="github logo" />
+          <img
+            className="home__techLogo"
+            src={firebaseLogo}
+            alt="firebase logo"
+          />
+
+          <img className="home__techLogo" src={reactLogo} alt="react logo" />
+          <img
+            className="home__techLogo"
+            src={reduxLogo}
+            alt="redux toolkit logo"
+          />
         </div>
       </div>
     </div>

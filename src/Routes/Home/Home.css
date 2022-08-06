@@ -89,6 +89,12 @@
     .home__headshot {
         margin: auto;
     }
+
+    .home__techLogo {
+        height: 50px;
+        width: auto;
+    }
+   
  
  }
 
