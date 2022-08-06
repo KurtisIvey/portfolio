@@ -33,6 +33,7 @@
     display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    
     padding: 1rem;
 }
 
@@ -42,8 +43,8 @@
 
 .navbar__toggle {
     position: absolute;
-    top: .05rem;
-    right: .4rem;
+    top: .5rem;
+    right: .7rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -66,6 +67,11 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .navbar__name {
+        margin-left: .5rem;
+        font-size: 1.8rem;
+
     }
     .navbar__toggle {
         display: flex;
@@ -90,12 +96,7 @@
         display: flex;
     }
     
-
     
-    .navbar__name {
-        margin-left: 0;
-        font-size: 1.8rem;
-
-    }
+    
 }
 

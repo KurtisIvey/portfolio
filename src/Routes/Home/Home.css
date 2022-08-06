@@ -18,15 +18,25 @@
 
     .home__smallText {
         font-weight: 300;
+        color:  rgb(106, 112, 106);
     }
     .home__bigText {
         font-weight: 600;
+        color:  rgb(118, 149, 118);
+
     }
     .home__medText {
         font-weight: 600;
+        color:  rgb(123, 125, 123);
+
+    }
+    .home__statement {
+        font-weight: 300;
+
+        color:  rgb(91, 91, 91);
     }
 
-@media screen and (min-width: 430px) and (max-width: 650px) { 
+@media screen and (min-width: 430px) and (max-width: 800px) { 
     .home__body {
         border: 1px solid pink;
         display: grid;
@@ -50,7 +60,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        padding-top: 30px;
+        padding-top: 20px;
     }
     
     .home__hiContainer {
@@ -60,7 +70,7 @@
         width: 90vw;
         margin:auto;
         border: 1px solid blue;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     
     }
     .home__smallText {
