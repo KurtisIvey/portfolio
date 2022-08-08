@@ -17,7 +17,7 @@ function App() {
         <div className="home__hiContainer">
           <div className="home__smallText">Hi, my name is </div>
           <div className="home__bigText">Kurtis Ivey,</div>
-          <div className="home__medText">and I design websites</div>
+          <div className="home__medText">and I design websites.</div>
           <div className="home__statement">
             I'm an over the road truck driver turned self taught front end
             developer that specializes in using React Js to build interactive

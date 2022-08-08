@@ -1,133 +1,228 @@
 .home {
-    font-family: 'Titillium Web', sans-serif;
-
+  font-family: "Titillium Web", sans-serif;
+  background-color: white;
 }
 
 .home__body {
-    border: 1px solid pink;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  border: 1px solid pink;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
 }
 
 .home__hiContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-    .home__smallText {
-        font-weight: 300;
-        color:  rgb(106, 112, 106);
-    }
-    .home__bigText {
-        font-weight: 600;
-        color:  rgb(118, 149, 118);
+.home__smallText {
+  font-weight: 300;
+  color: rgb(106, 112, 106);
+}
+.home__bigText {
+  font-weight: 600;
+  color: rgb(118, 149, 118);
+}
+.home__medText {
+  font-weight: 600;
+  color: rgb(123, 125, 123);
+}
+.home__statement {
+  font-weight: 300;
 
-    }
-    .home__medText {
-        font-weight: 600;
-        color:  rgb(123, 125, 123);
+  color: rgb(91, 91, 91);
+}
+.home__headshot {
+  margin: auto;
+}
 
-    }
-    .home__statement {
-        font-weight: 300;
+.home__skills {
+  color: rgb(118, 149, 118);
+}
+.home__skillsTitle {
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: 400;
+}
 
-        color:  rgb(91, 91, 91);
-    }
+.home__skillsLogoBox {
+  border: 3px solid rgb(200, 213, 200);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  gap: 24px;
+  padding: 28px 10px;
+  margin: 2px;
+  border-radius: 25px;
+}
 
-@media screen and (min-width: 430px) and (max-width: 800px) { 
-    .home__body {
-        border: 1px solid rgb(108, 18, 33);
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-    
-    .home__hiContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    
-    }
-  
- }
- 
- @media screen and (max-width: 430px) { 
-    .home__body {
-        border: 1px solid pink;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        padding: 10px;
-    }
-    
-    .home__hiContainer {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-        align-items: flex-start;
-        width: 90vw;
-        margin-bottom: 20px;
-        
-    
-    }
-    .home__smallText {
-        font-size: .9rem;
-    }
-    .home__bigText {           
-        font-size: 1.8rem;
-    }
-    .home__medText {
-        font-size: 1.3rem;
-    }
-    .home__statement {
-        font-size: .9rem;
-    }
+.home__techLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__techLogo {
+  height: 50px;
+  width: auto;
+}
+.home__techLogoTitle {
+  text-align: center;
+}
+.home__reduxLogoContainer {
+  margin-top: 2px;
+  grid-column: 2/3;
+}
 
-    .home__headshot {
-        margin: auto;
-    }
+@media screen and (min-width: 430px) and (max-width: 800px) {
+  .home__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 10px;
+  }
 
-    .home__skills {
-        color: rgb(118, 149, 118);
-    }
-    .home__skillsTitle {
-        text-align: center;
-        font-size: 2rem;
-        padding: 20px;
-        font-weight: 400;
-    }
+  .home__hiContainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-start;
+    width: 90vw;
+    margin-bottom: 30px;
+  }
+  .home__smallText {
+    font-size: 1.1rem;
+  }
+  .home__bigText {
+    font-size: 2.1rem;
+  }
+  .home__medText {
+    font-size: 1.6rem;
+  }
+  .home__statement {
+    font-size: 1.2rem;
+  }
 
-    .home__skillsLogoBox {
-        border: 3px solid rgb(200, 213, 200);
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
-        justify-items: center;
-        gap: 24px;
-        padding: 28px 10px;
-        margin: 2px;
-        border-radius: 25px;
-    }
+  .home__headshot {
+    margin: auto;
+  }
 
-    .home__techLogoContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .home__techLogo {
-        height: 50px;
-        width: auto;
-    }
-    .home__techLogoTitle {
-        text-align: center;
-    }
-    .home__reduxLogoContainer {
-        margin-top: 2px;
-        grid-column: 2/3;
-    }
-    
-    
- 
- }
+  .home__skills {
+    color: rgb(118, 149, 118);
+  }
+  .home__skillsTitle {
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+  }
 
+  .home__skillsLogoBox {
+    border: 3px solid rgb(200, 213, 200);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    gap: 24px;
+    padding: 30px 10px;
+    margin: 22px;
+    border-radius: 25px;
+  }
+
+  .home__techLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__techLogo {
+    height: 65px;
+    width: auto;
+  }
+  .home__techLogoTitle {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .home__reduxLogoContainer {
+    margin-top: 2px;
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .home__body {
+    border: 1px solid pink;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 10px;
+  }
+
+  .home__hiContainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-start;
+    width: 90vw;
+    margin-bottom: 30px;
+  }
+  .home__smallText {
+    font-size: 1rem;
+  }
+  .home__bigText {
+    font-size: 1.9rem;
+  }
+  .home__medText {
+    font-size: 1.4rem;
+  }
+  .home__statement {
+    font-size: 1rem;
+  }
+
+  .home__headshot {
+    margin: auto;
+  }
+
+  .home__skills {
+    color: rgb(118, 149, 118);
+  }
+  .home__skillsTitle {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px;
+    font-weight: 400;
+  }
+
+  .home__skillsLogoBox {
+    border: 3px solid rgb(200, 213, 200);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    gap: 24px;
+    padding: 28px 10px;
+    margin: 2px;
+    border-radius: 25px;
+  }
+
+  .home__techLogoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__techLogo {
+    height: 50px;
+    width: auto;
+  }
+  .home__techLogoTitle {
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .home__reduxLogoContainer {
+    margin-top: 2px;
+    grid-column: 2/3;
+  }
+}
