@@ -37,28 +37,64 @@ function App() {
           src="https://images.squarespace-cdn.com/content/v1/55778247e4b0e3cc12fde995/1534835065769-MRGCVFIZBLAF0P70RCOK/headshot%2Bblank.png"
         />
         <div>
-          <div>Skills</div>
+          <div className="home__skills">
+            <div className="home__skillsTitle">Skills</div>
+            <div className="home__skillsLogoBox">
+              <div className="home__techLogoContainer">
+                <img
+                  className="home__techLogo"
+                  src={htmlLogo}
+                  alt="html logo"
+                />
+                <div className="home__techLogoTitle">Html5</div>
+              </div>
+              <div className="home__techLogoContainer">
+                <img className="home__techLogo" src={cssLogo} alt="css logo" />
+                <div className="home__techLogoTitle">CSS3</div>
+              </div>
+              <div className="home__techLogoContainer">
+                <img
+                  className="home__techLogo"
+                  src={javascriptLogo}
+                  alt="javascript logo"
+                />
+                <div className="home__techLogoTitle">Javascript</div>
+              </div>
+              <div className="home__techLogoContainer">
+                <img
+                  className="home__techLogo"
+                  src={gitLogo}
+                  alt="github logo"
+                />
+                <div className="home__techLogoTitle">Git</div>
+              </div>
+              <div className="home__techLogoContainer">
+                <img
+                  className="home__techLogo"
+                  src={firebaseLogo}
+                  alt="firebase logo"
+                />
+                <div className="home__techLogoTitle">Firebase</div>
+              </div>
 
-          <img className="home__techLogo" src={htmlLogo} alt="html logo" />
-          <img className="home__techLogo" src={cssLogo} alt="css logo" />
-          <img
-            className="home__techLogo"
-            src={javascriptLogo}
-            alt="javascript logo"
-          />
-          <img className="home__techLogo" src={gitLogo} alt="github logo" />
-          <img
-            className="home__techLogo"
-            src={firebaseLogo}
-            alt="firebase logo"
-          />
-
-          <img className="home__techLogo" src={reactLogo} alt="react logo" />
-          <img
-            className="home__techLogo"
-            src={reduxLogo}
-            alt="redux toolkit logo"
-          />
+              <div className="home__techLogoContainer">
+                <img
+                  className="home__techLogo"
+                  src={reactLogo}
+                  alt="react logo"
+                />
+                <div className="home__techLogoTitle">React</div>
+              </div>
+              <div className="home__techLogoContainer home__reduxLogoContainer">
+                <img
+                  className="home__techLogo "
+                  src={reduxLogo}
+                  alt="redux toolkit logo"
+                />
+                <div className="home__techLogoTitle">Redux</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
