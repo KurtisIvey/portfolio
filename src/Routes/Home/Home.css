@@ -7,32 +7,37 @@
 }
 
 .home__body {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  grid-template-rows: auto [last-line];
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-self: center;
+  padding: 20px;
 }
 
 .home__hiContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  margin-bottom: 30px;
 }
 
 .home__smallText {
+  font-size: 1.3rem;
   font-weight: 300;
   color: rgb(106, 112, 106);
 }
 .home__bigText {
+  font-size: 2.3rem;
   font-weight: 600;
   color: rgb(118, 149, 118);
 }
 .home__medText {
+  font-size: 1.8rem;
   font-weight: 600;
   color: rgb(123, 125, 123);
 }
 .home__statement {
+  font-size: 1.4rem;
   font-weight: 300;
-
   color: rgb(91, 91, 91);
 }
 .home__headshot {
@@ -44,8 +49,9 @@
 }
 .home__skillsTitle {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.9rem;
   padding: 20px;
+  margin-top: 8px;
   font-weight: 400;
 }
 
@@ -57,7 +63,7 @@
   justify-items: center;
   gap: 24px;
   padding: 28px 10px;
-  margin: 2px;
+  margin: 22px;
   border-radius: 25px;
 }
 
@@ -67,10 +73,12 @@
   align-items: center;
 }
 .home__techLogo {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 .home__techLogoTitle {
+  font-size: 1.3rem;
+  margin-top: 10px;
   text-align: center;
 }
 .home__reduxLogoContainer {
@@ -84,18 +92,12 @@
 
 @media screen and (min-width: 430px) and (max-width: 800px) {
   .home__body {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .home__hiContainer {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: flex-start;
-    width: 90vw;
-    margin-bottom: 30px;
+    justify-self: center;    
   }
   .home__smallText {
     font-size: 1.1rem;
@@ -115,41 +117,25 @@
   }
 
   .home__skills {
+    grid-column: none;
     color: rgb(118, 149, 118);
   }
   .home__skillsTitle {
-    text-align: center;
     font-size: 2.7rem;
-    padding: 20px;
-    margin-top: 8px;
-    font-weight: 400;
   }
 
   .home__skillsLogoBox {
-    border: 3px solid rgb(200, 213, 200);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    justify-items: center;
-    gap: 24px;
     padding: 30px 10px;
-    margin: 22px;
-    border-radius: 25px;
   }
 
   .home__techLogoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .home__techLogo {
     height: 65px;
-    width: auto;
+   
   }
   .home__techLogoTitle {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.2rem; 
   }
   .home__reduxLogoContainer {
     margin-top: 2px;
