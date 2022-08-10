@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Navbar.css";
 import { mdiMenu } from "@mdi/js";
 import Icon from "@mdi/react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navbarLinks = useRef(null);
@@ -23,16 +24,24 @@ const Navbar = () => {
       <div ref={navbarLinks} className="navbar__links">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link className="navbar__link" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#">About Me</a>
+            <Link className="navbar__link" to="/About">
+              About Me
+            </Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link className="navbar__link" to="/Projects">
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link className="navbar__link" to="/Contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

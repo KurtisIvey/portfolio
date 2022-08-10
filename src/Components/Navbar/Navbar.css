@@ -29,7 +29,7 @@
     list-style: none;
 }
 
-.navbar__links li a {
+.navbar__links li .navbar__link {
     display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);

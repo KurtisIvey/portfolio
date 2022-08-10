@@ -8,6 +8,7 @@ import htmlLogo from "../../assets/htmlLogo.svg";
 import javascriptLogo from "../../assets/javascriptLogo.svg";
 import reactLogo from "../../assets/reactLogo.svg";
 import reduxLogo from "../../assets/reduxLogo.svg";
+import Footer from "../../Components/Footer/Footer";
 
 function App() {
   return (
@@ -97,6 +98,10 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className="home__footer">
+        {/*added footer div to control footer position via flexbox */}
+        <Footer />
+      </footer>
     </div>
   );
 }

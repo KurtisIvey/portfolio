@@ -1,12 +1,15 @@
 .home {
   font-family: "Titillium Web", sans-serif;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .home__body {
-  border: 1px solid pink;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: auto [last-line];
 }
 
 .home__hiContainer {
@@ -75,11 +78,14 @@
   grid-column: 2/3;
 }
 
+.home__footer {
+  margin-top: auto;
+}
+
 @media screen and (min-width: 430px) and (max-width: 800px) {
   .home__body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     padding: 10px;
   }
 
@@ -153,10 +159,8 @@
 
 @media screen and (max-width: 430px) {
   .home__body {
-    border: 1px solid pink;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     padding: 10px;
   }
 
