@@ -63,7 +63,7 @@
 
 
 
-@media screen and (min-width: 360px) and (max-width: 800px) {
+@media screen  and (max-width: 800px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
