@@ -5,27 +5,27 @@ import kurtTrucking4 from "../../assets/truckingPhotos/kurtTrucking.jpg";
 const images = [
   {
     number: "1/4",
-    caption: "truck 1",
-    alt: "truck",
+    caption: "Wife & I at the Petro Truckstop in Denton, Tx",
+    alt: "Wife & I at the Petro Truckstop in Denton, Tx",
     src: kurtTrucking1,
   },
   {
     number: "2/4",
-    caption: "truck 2",
-    alt: "truck 2",
-    src: kurtTrucking2,
+    caption: "Me Infront of my Truck (2019 VNL 760)",
+    alt: "Me Infront of my Truck (2019 VNL 760)",
+    src: kurtTrucking4,
   },
   {
     number: "3/4",
-    caption: "truccckk 3",
-    alt: "truckk 3",
-    src: kurtTrucking3,
+    caption: "My Wife Zoe Dangling off my Truck",
+    alt: "My Wife Zoe Dangling off my Truck",
+    src: kurtTrucking2,
   },
   {
     number: "4/4",
-    caption: "truck 4",
-    alt: "truck 4",
-    src: kurtTrucking4,
+    caption: "My last Truck prior to leaving Raider Express",
+    alt: "My last Truck prior to leaving Raider Express",
+    src: kurtTrucking3,
   },
 ];
 

@@ -51,39 +51,28 @@ const ImageCarousel = () => {
 
   return (
     <div className="imageCarousel">
-      <div>current index {i}</div>
-      <div className="imageCarousel__container">
-        <div className="imageCarousel__slide">
-          <div className="imageCarousel__number">{currentImage.number}</div>
-          <img
-            className="imageCarousel__image"
-            alt={currentImage.alt}
-            src={currentImage.src}
-          />
-          <div className="imageCarousel__caption">{currentImage.caption}</div>
-        </div>
-      </div>
-
-      <br />
       <button
-        className="imageCarousel__back"
+        className="imageCarousel__back imageCarousel__arrow"
         href="#"
         onClick={() => decreaseIndex()}
       >
-        back
+        &#8678;{" "}
       </button>
       <button
-        className="imageCarousel__next"
+        className="imageCarousel__next imageCarousel__arrow"
         href="#"
         onClick={() => increaseIndex()}
       >
-        forward
+        &#8680;{" "}
       </button>
-      <div>
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-      </div>
+      <div className="imageCarousel__number">{currentImage.number}</div>
+      <div className="imageCarousel__caption">{currentImage.caption}</div>
+
+      <img
+        className="imageCarousel__image"
+        alt={currentImage.alt}
+        src={currentImage.src}
+      />
     </div>
   );
 };
