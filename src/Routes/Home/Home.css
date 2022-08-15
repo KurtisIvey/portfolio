@@ -1,9 +1,5 @@
 .home {
-  font-family: "Titillium Web", sans-serif;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+
 }
 
 .home__body {

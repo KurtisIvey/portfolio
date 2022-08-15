@@ -6,10 +6,11 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="main">
       <Navbar />
       <div className="about__body">
-        <div>
+        <h1>About Me</h1>
+        <div className="about__text">
           &emsp; Hi, my name is Kurtis and I enjoy creating websites from
           scratch. My interest in coding originally started while I was an over
           the road truck driver/instructor for about 5 years. While trucking
@@ -22,7 +23,7 @@ const About = () => {
         <br />
         <ImageCarousel />
         <br />
-        <div>
+        <div className="about__text">
           &emsp; Fast forward to the end of my trucking career, I enrolled in
           college with the intention to get a bachelors in software engineering.
           However, I realized after being in school for a while, that I could
@@ -36,9 +37,9 @@ const About = () => {
         </div>
         <br />
         <div>
-          fun fact: I've drove the distance equivalent to having driven around
-          the world 28 times, so I'm pretty much a professional at sitting on my
-          butt.{" "}
+          <span className="about__funFact about__text">Fun Fact:</span> I've
+          drove the distance equivalent to having driven around the world 28
+          times, so I'm pretty much a professional at sitting on my butt.{" "}
         </div>
       </div>
       <footer>

@@ -1,0 +1,11 @@
+
+
+.projects__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-self: center;
+  padding: 20px;
+}
+
+

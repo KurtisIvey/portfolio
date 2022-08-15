@@ -12,7 +12,7 @@ import Footer from "../../Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="home">
+    <div className="main">
       <Navbar />
       <div className="home__body">
         <div className="home__hiContainer">

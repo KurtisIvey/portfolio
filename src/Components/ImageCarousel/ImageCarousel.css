@@ -1,7 +1,14 @@
 .imageCarousel {
-  box-sizing: border-box;
-  height: fit-content;
+  opacity: 0;
+  transition: 1000ms ease-in-out;
+}
+.imageCarousel__active {
+  opacity: 1;
+  transition-duration: 1s;
+  position: relative;
   max-height: 600px;
+  max-width: 430px;
+  height: fit-content;
   width: fit-content;
   margin: auto;
   position: relative;
@@ -33,8 +40,6 @@
   left: 88%;
 }
 
-
-
 .imageCarousel__number {
   position: absolute;
   top: 5px;
@@ -45,14 +50,50 @@
 .imageCarousel__image {
   width: 100%;
   height: 100%;
+  transition: 1110ms ease-in-out;
 }
 
 .imageCarousel__caption {
   position: absolute;
-  bottom: 5px;
+  bottom: 8px;
   background-color: rgba(255, 255, 255, 0.499);
   border-radius: 5px;
+  max-width: 85%;
   width: fit-content;
   padding: 0 10px;
   text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  .imageCarousel__back {
+    
+    right: 86%;
+  }
+  .imageCarousel__next {
+    
+    left: 86%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imageCarousel__back {
+    
+    right: 84%;
+  }
+  .imageCarousel__next {
+    
+    left: 84%;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .imageCarousel__back {
+    
+    right: 82%;
+  }
+  .imageCarousel__next {
+    
+    left: 82%;
+  }
 }

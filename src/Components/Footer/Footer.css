@@ -1,48 +1,47 @@
 .footer {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .footer__shape {
-    position: relative;
-    bottom: -102px;
-    width: 38rem;
-    height: 19rem;
-    border-radius: 19rem 19rem 0 0;
-    background-color:  rgb(200, 213, 200);
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  position: relative;
+  bottom: -102px;
+  width: 38rem;
+  height: 19rem;
+  border-radius: 19rem 19rem 0 0;
+  background-color: rgb(200, 213, 200);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 .footer__designedBy {
-    font-family: 'The Nautigal', cursive;
-    color: rgb(36, 36, 36);
-    font-size: 2rem;
-    margin-top: 27px;
+  font-family: "The Nautigal", cursive;
+  color: rgb(36, 36, 36);
+  font-size: 2rem;
+  margin-top: 27px;
 }
-.footer__socialIcons {
-    
-}
+
 .footer__socialIcon {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.footer__socialIcon:hover {
+  scale: 1.2;
 }
 @media screen and (min-width: 430px) and (max-width: 800px) {
-    .footer__designedBy {
-        font-size: 1.8rem;
-        margin-top: 30px;
-    }
+  .footer__designedBy {
+    font-size: 1.8rem;
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 430px) {
-    .footer__designedBy {
-        font-size: 1.6rem;
-        margin-top: 40px;
-    }
+  .footer__designedBy {
+    font-size: 1.6rem;
+    margin-top: 40px;
+  }
 }
