@@ -31,7 +31,8 @@
   margin: 5px;
 }
 .footer__socialIcon:hover {
-  scale: 1.2;
+  transform: scale(1.09);
+  transition: 220ms transform ease-in-out;
 }
 @media screen and (min-width: 430px) and (max-width: 800px) {
   .footer__designedBy {

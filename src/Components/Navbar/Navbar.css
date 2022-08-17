@@ -5,6 +5,7 @@
     align-items: center;
     background-color: rgb(149, 183, 149);
     color: white;
+    z-index: 10;
 }
 
 .navbar__name {
@@ -38,7 +39,7 @@
 }
 
 .navbar__links li:hover {
-    background-color:rgb(179, 226, 179);
+    background-color:rgb(200, 213, 200);
 }
 
 .navbar__toggle {
