@@ -17,31 +17,6 @@ const Navbar = () => {
   //refs
   const navbarLinks = useRef(null);
 
-  const homeLink = useRef(null);
-  const aboutLink = useRef(null);
-  const projectsLink = useRef(null);
-  const contactLink = useRef(null);
-  //const [activePage, setActivePage] = useState("home");
-  const resetClassList = () => {
-    homeLink.current.classList = "navbar__link";
-    aboutLink.current.classList = "navbar__link";
-    projectsLink.current.classList = "navbar__link";
-    contactLink.current.classList = "navbar__link";
-  };
-
-  /* useEffect(() => {
-    resetClassList();
-    if (activePage === "home") {
-      homeLink.current.classList.t
-    }
-  }, [activePage]);
-  const toggly = (item) => {
-    item.current.classList.toggle("active");
-  };
-  const handleActivePage = (page) => {
-    setActivePage(page);
-  };*/
-
   const toggleNavbar = () => {
     navbarLinks.current.classList.toggle("active");
   };
@@ -71,7 +46,6 @@ const Navbar = () => {
                   ? { color: "rgb(23, 23, 23)" }
                   : { color: "white" }
               }
-              ref={homeLink}
               className="navbar__link"
               to="/"
             >
@@ -92,7 +66,6 @@ const Navbar = () => {
                   ? { color: "rgb(23, 23, 23)" }
                   : { color: "white" }
               }
-              ref={aboutLink}
               className="navbar__link"
               to="/About"
             >
@@ -113,7 +86,6 @@ const Navbar = () => {
                   ? { color: "rgb(23, 23, 23)" }
                   : { color: "white" }
               }
-              ref={projectsLink}
               className="navbar__link"
               to="/Projects"
             >
@@ -134,7 +106,6 @@ const Navbar = () => {
                   ? { color: "rgb(23, 23, 23)" }
                   : { color: "white" }
               }
-              ref={contactLink}
               className="navbar__link"
               to="/Contact"
             >
