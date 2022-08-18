@@ -21,10 +21,11 @@
 .contact__body div {
     font-size: 1.2rem;
     z-index: 2;
+    color: rgb(27, 27, 27);
 }
 
 .contact__body h1 {
-    color:black;
+    color:rgb(76, 77, 76);
     font-size: 3rem;
     z-index: 2;
 

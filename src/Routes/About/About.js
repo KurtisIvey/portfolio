@@ -28,18 +28,20 @@ const About = () => {
           college with the intention to get a bachelors in software engineering.
           However, I realized after being in school for a while, that I could
           teach myself everything I needed to know and save about $50,000. Soon
-          after, I started by teaching myself python, but soon switched to
-          javascript in February of 2021 after being displeased with the
-          graphical user interfaces of apps I made in python. I've been coding
-          in javascript ever since. Growing my skills by utilizing nearly every
+          after, I started my coding journey by teaching myself python. Later
+          on, I switched to javascript after being displeased with the graphical
+          user interfaces of apps I made in python. I've been coding in
+          javascript ever since. Growing my skills by utilizing nearly every
           resource in existance such as Google, Youtube, Freecodecamp, scrimba,
           udemy, docs, and The Odin Project.
         </div>
         <br />
         <div>
-          <span className="about__funFact about__text">Fun Fact:</span> I've
-          drove the distance equivalent to having driven around the world 28
-          times, so I'm pretty much a professional at sitting on my butt.{" "}
+          <span className="about__funFact about__text">Fun Fact:</span>{" "}
+          <span className="about__text">
+            I've drove the distance equivalent to having driven around the world
+            28 times, so I'm pretty much a professional at sitting on my butt.
+          </span>{" "}
         </div>
       </div>
       <footer>
