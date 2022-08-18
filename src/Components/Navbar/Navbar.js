@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./Navbar.css";
 import { mdiMenu } from "@mdi/js";
 import Icon from "@mdi/react";
