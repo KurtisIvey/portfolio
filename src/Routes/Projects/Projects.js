@@ -12,15 +12,15 @@ const Projects = () => {
         <h1>Projects</h1>
         {projectsMade.map((project) => {
           return (
-            <div className="project__projectBody" key={project.key}>
+            <div className="projects__projectBody" key={project.key}>
               <h2>{project.projectName}</h2>
-              <div className="project__projectLowerContainer">
+              <div className="projects__projectLowerContainer">
                 <img
-                  className="project__projectImage"
+                  className="projects__projectImage"
                   src={project.src}
                   alt={project.alt}
                 />
-                <div className="project__projectDescription">
+                <div className="projects__projectDescription">
                   {project.description}
                 </div>
               </div>

@@ -9,10 +9,27 @@
   padding: 20px;
 }
 
-.project__projectImage {
-  max-width: 400px;
-  max-height: 400px;
-  object-fit: fill;
+.projects__projectBody {
+  border: 2px solid green;
 }
 
+.projects__projectBody h2 {
+
+}
+
+.projects__projectLowerContainer {
+  border: 1px solid blue;
+}
+
+.projects__projectImage {
+
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.projects__projectDescription {
+  padding: 11px;
+  border: 1px solid lime;
+}
 
