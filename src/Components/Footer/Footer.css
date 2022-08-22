@@ -31,7 +31,7 @@
   margin: 5px;
 }
 .footer__socialIcon:hover {
-  transform: scale(1.09);
+  transform: scale(1.3);
   transition: 220ms transform ease-in-out;
 }
 @media screen and (min-width: 430px) and (max-width: 800px) {

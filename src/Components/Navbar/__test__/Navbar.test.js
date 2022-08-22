@@ -1,8 +1,10 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import { Provider, useSelector } from "react-redux";
+import { Provider } from "react-redux";
 import Navbar from "../Navbar.js";
 import { store } from "../../../store/store";
+
+// had to import MemoryRouter in order to not get error due to reactRouter
 
 const MockNavbar = () => {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Home.css";
-import cssLogo from "../../assets/cssLogo.svg";
-import firebaseLogo from "../../assets/firebaseLogo.svg";
-import gitLogo from "../../assets/gitLogo.svg";
-import htmlLogo from "../../assets/htmlLogo.svg";
-import javascriptLogo from "../../assets/javascriptLogo.svg";
-import reactLogo from "../../assets/reactLogo.svg";
-import reduxLogo from "../../assets/reduxLogo.svg";
+import cssLogo from "../../assets/logos/cssLogo.svg";
+import firebaseLogo from "../../assets/logos/firebaseLogo.svg";
+import gitLogo from "../../assets/logos/gitLogo.svg";
+import htmlLogo from "../../assets/logos/htmlLogo.svg";
+import javascriptLogo from "../../assets/logos/javascriptLogo.svg";
+import reactLogo from "../../assets/logos/reactLogo.svg";
+import reduxLogo from "../../assets/logos/reduxLogo.svg";
 import Footer from "../../Components/Footer/Footer";
 
 function App() {
