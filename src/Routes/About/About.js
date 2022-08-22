@@ -32,7 +32,7 @@ const About = () => {
           on, I switched to javascript after being displeased with the graphical
           user interfaces of apps I made in python. I've been coding in
           javascript ever since. Growing my skills by utilizing nearly every
-          resource in existance such as Google, Youtube, Freecodecamp, scrimba,
+          resource in existence such as Google, Youtube, Freecodecamp, scrimba,
           udemy, docs, and The Odin Project.
         </div>
         <br />
