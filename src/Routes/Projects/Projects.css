@@ -9,4 +9,10 @@
   padding: 20px;
 }
 
+.project__projectImage {
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: fill;
+}
+
 
