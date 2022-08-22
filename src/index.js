@@ -7,7 +7,7 @@ import About from "./Routes/About/About.js";
 import Projects from "./Routes/Projects/Projects.js";
 import Contact from "./Routes/Contact/Contact.js";
 import "./index.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -15,14 +15,14 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   </React.StrictMode>
 );
