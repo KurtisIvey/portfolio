@@ -18,9 +18,9 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route index path="/" element={<Home />}></Route>
-          <Route index path="/About" element={<About />}></Route>
-          <Route index path="/Projects" element={<Projects />}></Route>
-          <Route index path="/Contact" element={<Contact />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Projects" element={<Projects />}></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
     </Provider>
