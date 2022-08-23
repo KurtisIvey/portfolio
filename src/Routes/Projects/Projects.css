@@ -19,6 +19,7 @@
 
 .projects__projectLowerContainer {
   border: 1px solid blue;
+  display: flex;
 }
 
 .projects__projectImage {
