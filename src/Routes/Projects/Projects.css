@@ -11,6 +11,9 @@
 
 .projects__projectBody {
   border: 2px solid green;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects__projectBody h2 {
@@ -19,13 +22,15 @@
 
 .projects__projectLowerContainer {
   border: 1px solid blue;
-  display: flex;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .projects__projectImage {
 
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -34,3 +39,11 @@
   border: 1px solid lime;
 }
 
+@media screen and (max-width: 570px) {
+  .projects__projectLowerContainer {
+    display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: auto;
+  }
+  
+}
