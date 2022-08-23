@@ -1,3 +1,7 @@
+.contact {
+    height: 100vh;
+}
+
 .contact__body {
     position: absolute;
     left: 0;

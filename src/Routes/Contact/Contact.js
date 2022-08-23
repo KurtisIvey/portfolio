@@ -6,7 +6,7 @@ import borderImg from "../../assets/shapeBorder.png";
 
 const Contact = () => {
   return (
-    <div className="main">
+    <div className="main contact">
       <Navbar />
       <section className="contact__body">
         <img src={borderImg} alt="shape border background"></img>

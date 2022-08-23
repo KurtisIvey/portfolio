@@ -10,7 +10,7 @@ const projectsMade = [
     src: instagram,
     alt: "instagram clone",
     description:
-      "This is an Instagram clone I built using ReactJs, ReactRouter v6, and Firebase Hosting. This presented many challenges as a lot of the guides on how to implement things were deprecated. This forced me to grow considerably since I had infer and apply a lot of information from the firebase docs.",
+      "This is an Instagram clone I built using ReactJs, ReactRouter v6, and Firebase Hosting. This presented many challenges as a lot of the guides on how to implement things were deprecated. This forced me to grow considerably since I had to infer and apply a lot of information from the firebase docs.",
   },
   {
     projectName: "Resume App",
@@ -18,7 +18,7 @@ const projectsMade = [
     src: resume,
     alt: "resume application",
     description:
-      "This is a Resume app I built using ReactJs, Redux, and basic javascript. It was one of the first applications that I tried to make responsive through grid auto-fit and media queries.",
+      "This is a Resume app I built using ReactJs, Redux, and basic javascript. It was one of the first applications that I tried to make responsive through grid auto-fit and media queries. I used the react testing library extensively in this application due to all the inputs that output information.",
   },
   {
     projectName: "Sign Up Form",
@@ -26,7 +26,7 @@ const projectsMade = [
     src: signUpForm,
     alt: "dummy sign up form",
     description:
-      "This is a Sign Up Form I built using basic javascript and ReactJs. I've styled the whole website to be responsive at nearly all resolutions. In addition, there is active form validation upon submission.",
+      "This is a Sign Up Form I built using basic javascript and ReactJs. I've styled the whole website to be responsive at nearly all resolutions. In addition, there is active form validation upon submission. I learned to be extra vigilant in monitoring inherited css styles with this project.",
   },
   {
     projectName: "Weather App",

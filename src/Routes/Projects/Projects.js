@@ -27,16 +27,6 @@ const Projects = () => {
             </div>
           );
         })}
-
-        <div className="projects__projects">
-          <div className="projects__project">
-            <h2>project name</h2>
-            <div>
-              <div>img</div>
-              <div>description</div>
-            </div>
-          </div>
-        </div>
       </section>
       <div className="footer">
         <Footer />
