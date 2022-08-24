@@ -13,7 +13,12 @@ const Projects = () => {
         {projectsMade.map((project) => {
           return (
             <div className="projects__projectBody" key={project.key}>
-              <h2>{project.projectName}</h2>
+              <div className="projects__projectTopContainer">
+                <a href={project.website}>{project.projectName}</a>
+
+                <a href={project.github}>Repository Link</a>
+              </div>
+
               <div className="projects__projectLowerContainer">
                 <img
                   className="projects__projectImage"

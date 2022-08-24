@@ -29,10 +29,16 @@
   border-radius: 5px;
 }
 
-.projects__projectBody h2 {
+.projects__projectTopContainer {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects__projectTopContainer a {
   font-size: 1.5rem;
   color: rgb(95, 95, 95);
-
+  
   text-decoration: underline;
   margin: 0;
 }
@@ -59,9 +65,20 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 650px) {
+  .projects__projectTopContainer a {
+    font-size: 1.3rem;
+    
+  }
+
+  .projects__projectDescription {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 570px) {
-  .projects__projectBody h2 {
-    text-align: center;
+  .projects__projectTopContainer a {
+    font-size: 1.1rem;
     
   }
 
