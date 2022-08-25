@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="main projects">
       <Navbar />
       <section className="projects__body">
-        <h1>Projects</h1>
+        <h1 className="pageTitle">Projects</h1>
         {projectsMade.map((project) => {
           return (
             <div className="projects__projectBody" key={project.key}>

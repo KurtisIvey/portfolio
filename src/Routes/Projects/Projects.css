@@ -65,7 +65,17 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 800px) {
+  .pageTitle {
+    text-align: center;
+  }
+}
+
+
 @media screen and (max-width: 650px) {
+  .pageTitle {
+    text-align: center;
+  }
   .projects__projectTopContainer a {
     font-size: 1.3rem;
     
@@ -77,6 +87,9 @@
 }
 
 @media screen and (max-width: 570px) {
+  .pageTitle {
+    text-align: center;
+  }
   .projects__projectTopContainer a {
     font-size: 1.1rem;
     

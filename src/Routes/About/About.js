@@ -6,10 +6,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="main">
+    <div className="main about">
       <Navbar />
       <div className="about__body">
-        <h1>About Me</h1>
+        <h1 className="pageTitle">About Me</h1>
         <div className="about__text">
           &emsp; Hi, my name is Kurtis and I enjoy creating websites from
           scratch. My interest in coding originally started while I was an over
