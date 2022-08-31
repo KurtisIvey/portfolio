@@ -33,7 +33,11 @@ function App() {
           </div>
         </div>
 
-        <img className="home__headshot" alt="blank headshot" src={headshot} />
+        <img
+          className="home__headshot"
+          alt="headshot I sourced from my wedding photos after cropping out my wife and mother in law"
+          src={headshot}
+        />
 
         <div className="home__skills">
           <div className="home__skillsTitle">Skills</div>
