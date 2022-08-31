@@ -41,7 +41,7 @@ const Contact = () => {
           , or{" "}
           <a
             className="underline contact__link"
-            href="https://www.instagram.com/iveycodingandbjj/?hl=en"
+            href="https://www.instagram.com/iv.coding.bjj/?hl=en"
           >
             instagram
           </a>
