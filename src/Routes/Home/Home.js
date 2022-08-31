@@ -21,7 +21,8 @@ function App() {
           <div className="home__bigText">Kurtis Ivey,</div>
           <div className="home__medText">and I'm a Web Developer.</div>
           <div className="home__statement">
-            I am an over the road truck driver turned self taught front end
+            I was an over the road truck driver that slept in a 35 square foot
+            truck for nearly 5 years dreaming of becoming a coder. Now I'm a web
             developer that specializes in using React Js to build interactive
             multi page web applications. In addition, I have experience
             utilizing APIs and other backend technologies to seamlessly
