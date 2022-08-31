@@ -37,9 +37,13 @@
   font-size: 1.4rem;
   font-weight: 300;
   color: rgb(91, 91, 91);
+  margin-bottom: 5px;
 }
 .home__headshot {
   margin: auto;
+  border-radius: 50%;
+  max-height: 340px;
+  width: auto;
 }
 
 .home__skills {
@@ -112,7 +116,7 @@
   }
 
   .home__headshot {
-    margin: auto;
+    max-height: 300px;
   }
 
   .home__skills {
@@ -160,6 +164,7 @@
   }
 
   .home__headshot {
+    max-height: 250px;
   }
 
   .home__skills {

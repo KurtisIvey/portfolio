@@ -9,6 +9,7 @@ import javascriptLogo from "../../assets/logos/javascriptLogo.svg";
 import reactLogo from "../../assets/logos/reactLogo.svg";
 import reduxLogo from "../../assets/logos/reduxLogo.svg";
 import Footer from "../../Components/Footer/Footer";
+import headshot from "../../assets/headshot.jpeg";
 
 function App() {
   return (
@@ -32,11 +33,7 @@ function App() {
           </div>
         </div>
 
-        <img
-          className="home__headshot"
-          alt="blank headshot"
-          src="https://images.squarespace-cdn.com/content/v1/55778247e4b0e3cc12fde995/1534835065769-MRGCVFIZBLAF0P70RCOK/headshot%2Bblank.png"
-        />
+        <img className="home__headshot" alt="blank headshot" src={headshot} />
 
         <div className="home__skills">
           <div className="home__skillsTitle">Skills</div>
