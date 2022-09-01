@@ -27,7 +27,7 @@ const Footer = () => {
               bgColor={white}
             />
           </a>
-          <a href="https://www.linkedin.com/in/kurtis-ivey/">
+          <a href="https://www.linkedin.com/in/k-ivey/">
             <SocialIcon
               style={styling}
               className="footer__socialIcon"

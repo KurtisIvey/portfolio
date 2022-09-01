@@ -34,7 +34,7 @@ const Contact = () => {
           ,{" "}
           <a
             className="underline contact__link"
-            href="https://www.linkedin.com/in/kurtis-ivey/"
+            href="https://www.linkedin.com/in/k-ivey/"
           >
             linkedIn
           </a>
