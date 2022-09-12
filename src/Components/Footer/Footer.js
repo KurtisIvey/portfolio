@@ -35,7 +35,7 @@ const Footer = () => {
               bgColor={white}
             />
           </a>
-          <a href="https://www.instagram.com/iveycodingandbjj/?hl=en">
+          <a href="https://www.instagram.com/iv.coding.bjj/?hl=en">
             <SocialIcon
               style={styling}
               className="footer__socialIcon"
