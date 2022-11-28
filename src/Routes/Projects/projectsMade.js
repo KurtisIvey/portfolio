@@ -3,7 +3,18 @@ import resume from "../../assets/projectImages/resume.jpg";
 import signUpForm from "../../assets/projectImages/signUpForm.jpg";
 import weather from "../../assets/projectImages/weather.jpg";
 import portfolio from "../../assets/projectImages/portfolio.jpg";
+import bobaProject from "../../assets/projectImages/bobaProject.png";
 const projectsMade = [
+  {
+    projectName: "Boba-Depot ",
+    key: "p01",
+    src: bobaProject,
+    alt: "portfolio website",
+    website: "#",
+    github: "https://github.com/Kitsunebackfire/boba_project",
+    description:
+      "This app is one of the most recent apps that I have built on my backend development journey. It utilizes nodeJs, amazon AWS S3 for image storage, mongoDb, and ejs. I initially ran into issues getting images to upload to mongoDB, so I instead opted to learn AWS S3 to solve my image uploading troubles.",
+  },
   {
     projectName: "Portfolio Website",
     key: "p0",
