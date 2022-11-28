@@ -13,7 +13,7 @@ const projectsMade = [
     website: "#",
     github: "https://github.com/Kitsunebackfire/boba_project",
     description:
-      "This app is one of the most recent apps that I have built on my backend development journey. It utilizes nodeJs, amazon AWS S3 for image storage, mongoDb, and ejs. I initially ran into issues getting images to upload to mongoDB, so I instead opted to learn AWS S3 to solve my image uploading troubles.",
+      "This app is one of the most recent apps that I have built on my backend development journey. It utilizes nodeJs, amazon AWS S3 for image storage, mongoDb, and ejs. I initially ran into issues getting images to upload to mongoDB, so I instead opted to learn AWS S3 to solve my image uploading troubles. There is no website link due to heroku eliminating its free service. Once I find another provider, I'll update the link.",
   },
   {
     projectName: "Portfolio Website",
